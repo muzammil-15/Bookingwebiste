@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+
+  /* Colors: */
+  --gcolor: #409B19;
+  --graycolor: #ADADAD;
+  --bcolor: #0351FC;
+  --wcolor: #FFFFFF;
+  --bcolor: #000000;
+  }
+
+  
