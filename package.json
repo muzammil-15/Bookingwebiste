@@ -13,11 +13,18 @@
     "lucide-react": "^0.338.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.1"
+    "react-rating-stars-component": "^2.2.0",
+    "react-router-dom": "^6.22.1",
+    "react-simple-star-rating": "^5.1.7",
+    "react-slick": "^0.29.0",
+    "react-star-ratings": "^2.3.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
+    "@types/react-slick": "^0.23.13",
+    "@types/react-star-ratings": "^2.3.3",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",

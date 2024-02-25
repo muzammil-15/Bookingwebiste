@@ -8,6 +8,7 @@ import Villa from "../../assets/images/villa.png"
 import Hotel from "../../assets/images/hotel.png"
 import HomeApartmentCard from "../../components/HomeApartmentCard";
 import elipes from "../../assets/images/elipes.png"
+import PrimeProperty from "../../components/PrimeProperty";
 interface Card {
   image: string;
   title: string;
@@ -147,6 +148,8 @@ function Home() {
 
     </section>
     {/* Home Apartments section */}
+
+    <PrimeProperty/>
 
     </>
   );

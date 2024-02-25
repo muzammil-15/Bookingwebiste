@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
 
   /* Colors: */
@@ -12,4 +13,16 @@
   --bcolor: #000000;
   }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: "Poppins", sans-serif;
+  }
+  /* gloabal spacing */
+  .padding-x {
+    @apply sm:px-16 px-6;
+  }
   
+
+ 
