@@ -12,8 +12,8 @@ interface Card {
 
 const RecentCard: React.FC<{ card: Card }> = ({ card }) => {
   return (
-    <div className="flex flex-col sm:flex-row justify-start gap-5 md:gap-8 items-center w-[90%] sm:w-[480px] border border-[#ADADAD] rounded-md ">
-      <img src={card.image} alt="img" className=" h-[250px] w-full sm:w-[206px] sm:h-full" />
+    <div className="flex flex-col sm:flex-row justify-start gap-5 md:gap-8 items-center w-[90%] sm:w-[500px] bg-white border border-[#ADADAD] rounded-md ">
+      <img src={card.image} alt="img" className=" h-[250px] w-full sm:w-[206px] sm:h-[206px]" />
       <div className="h-full flex flex-col py-5 pr-1 gap-3 ">
         <h3 className="text-base md:text-lg font-bold text-black">{card.title}</h3>
 

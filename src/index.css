@@ -24,5 +24,10 @@
     @apply sm:px-16 px-6;
   }
   
-
+.footer{
+  background-image: url('./assets/images/headerbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
  

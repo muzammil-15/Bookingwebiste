@@ -9,6 +9,7 @@ import Hotel from "../../assets/images/hotel.png"
 import HomeApartmentCard from "../../components/HomeApartmentCard";
 import elipes from "../../assets/images/elipes.png"
 import PrimeProperty from "../../components/PrimeProperty";
+import Footer from "../../components/Footer";
 interface Card {
   image: string;
   title: string;
@@ -40,7 +41,7 @@ const cards:Card[] = [
   reviews: "Wonderful . 228 reviews",
 }
 ];
-const havhcards:HavhCard[] = [
+export const havhcards:HavhCard[] = [
   {
   image: HomeImage,
   title: "Luxury Home For Stay",
@@ -150,6 +151,10 @@ function Home() {
     {/* Home Apartments section */}
 
     <PrimeProperty/>
+
+    {/* footer */}
+    <Footer/>
+    {/* footer */}
 
     </>
   );
