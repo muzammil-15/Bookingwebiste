@@ -15,7 +15,8 @@ import JoinUs from "../../components/JoinUs";
 import TripePlane from "../../components/TripePlane";
 import TrendingDestinationHoem from "../../components/TrendingDestinationHoem";
 import ExplorHome from "../../components/ExplorHome";
->>>>>>> 8fb0671429127ed7b3ee27c464931b15c0c6abc7
+import Footer from "../../components/Footer";
+
 interface Card {
   image: string;
   title: string;
@@ -136,25 +137,6 @@ function Home() {
     {/* Home Apartments section */}
 
 
-    {/* Home Apartments section */}
-    <section className="w-full py-10 bg-[#F2F4FD] my-20 relative">
-      <img src={elipes} alt="elipes"  className="absolute hidden md:block top-20 lift-10 w-[250px]"/>
-      <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8 z-10 bg-[#F2F4FD] ">
-        <div className="w-full flex flex-col justify-center items-center gap-10">
-          <h2 className="text-3xl text-center text-black font-bold border-b border-blue-600 pb-4">Our Top Prime Properties</h2>
-          <hr />
-          <div className="flex w-full justify-center gap-5 items-center flex-wrap">
-            {havhcards.map((card , ind:number)=>(
-
-            <HomeApartmentCard card={card} key={ind}/>
-            ))}
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-    {/* Home Apartments section */}
 
     <PrimeProperty/>
 <TopApartHome/>
@@ -162,6 +144,8 @@ function Home() {
 <TrendingDestinationHoem/>
 <ExplorHome/>
 <JoinUs/>
+
+<Footer/>
 
 
 
