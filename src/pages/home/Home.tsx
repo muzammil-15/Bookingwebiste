@@ -9,7 +9,13 @@ import Hotel from "../../assets/images/hotel.png"
 import HomeApartmentCard from "../../components/HomeApartmentCard";
 import elipes from "../../assets/images/elipes.png"
 import PrimeProperty from "../../components/PrimeProperty";
-import Footer from "../../components/Footer";
+import FiveStrHomeApart from "../../components/FiveStrHomeApart";
+import TopApartHome from "../../components/TopApartHome";
+import JoinUs from "../../components/JoinUs";
+import TripePlane from "../../components/TripePlane";
+import TrendingDestinationHoem from "../../components/TrendingDestinationHoem";
+import ExplorHome from "../../components/ExplorHome";
+>>>>>>> 8fb0671429127ed7b3ee27c464931b15c0c6abc7
 interface Card {
   image: string;
   title: string;
@@ -151,10 +157,13 @@ function Home() {
     {/* Home Apartments section */}
 
     <PrimeProperty/>
+<TopApartHome/>
+<TripePlane/>
+<TrendingDestinationHoem/>
+<ExplorHome/>
+<JoinUs/>
 
-    {/* footer */}
-    <Footer/>
-    {/* footer */}
+
 
     </>
   );
