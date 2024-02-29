@@ -16,6 +16,7 @@ import TripePlane from "../../components/TripePlane";
 import TrendingDestinationHoem from "../../components/TrendingDestinationHoem";
 import ExplorHome from "../../components/ExplorHome";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 interface Card {
   image: string;
@@ -90,9 +91,11 @@ function Home() {
               Search millions of apartments, houses, and private office suites
               for rent with our exclusive hotels & apartments Platform
             </p>
+            <Link to={"/homelisting"}>
             <button className="text-white text-base md:text-lg border border-white rounded-sm py-2 px-6 cursor-pointer">
               View All Hotels
             </button>
+            </Link>
           </div>
         </div>
       </header>

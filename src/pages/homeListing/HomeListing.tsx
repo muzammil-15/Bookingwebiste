@@ -7,6 +7,7 @@ import PopularDestinations from "../../components/homelisting/PopularDestination
 import { havhcards } from "../home/Home";
 import elipes from "../../assets/images/elipes.png"
 import { hotels } from "../../constants/data";
+import ExplorHome from "../../components/ExplorHome";
 
 
 const HomeListing = () => {
@@ -24,6 +25,7 @@ const HomeListing = () => {
       </header>
       <HomeListingHotel hotels={hotels}/>
       <PopularDestinations />
+      <ExplorHome/>
       <IdealProperties />
       <section className="w-full py-10 bg-[#F2F4FD]  relative">
         <img

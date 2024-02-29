@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Hotel } from "../../constants/data";
+import { Link } from "react-router-dom";
 
 
 interface Tab {
@@ -76,9 +77,11 @@ const HomeListingMain = ({hotels}:{hotels: Hotel[]}) => {
               <span className="text-sm md:text-base text-black">Wonderful . {hotel.reviews} reviews</span>
             </div>
             <div className="flex items-center gap-4">
+              <Link to={"/homelistingdetails"}>
               <button className="text-white py-2 px-4 rounded-md bg-[#0351FC]">
               Book Now
               </button>
+              </Link>
               <div className="">
                 <span className="text-sm">From</span>
                 <span className="text-xl font-bold">${hotel.price}.00</span>

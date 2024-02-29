@@ -8,6 +8,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import HomeListing from './pages/homeListing/HomeListing.tsx';
+import HomeListingDetails from './pages/homeListingDetails/HomeListingDetails.tsx';
+import AboutUs from './pages/aboutus/AboutUs.tsx';
+import TermsAndServices from './pages/termsandservices/Terms.tsx';
+import ListProperty from './pages/listproperty/ListProperty.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
   {
     path: "/homelisting",
     element: <HomeListing/>,
+  },
+  {
+    path: "/homelistingdetails",
+    element: <HomeListingDetails/>,
+  },
+  {
+    path: "/aboutus",
+    element: <AboutUs/>,
+  },
+  {
+    path: "/terms",
+    element: <TermsAndServices/>,
+  },
+  {
+    path: "/list-property",
+    element: <ListProperty/>,
   },
 ]);
 

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/images/logo.png'
+import { Link } from "react-router-dom";
 
 const menuItems = [
   {
@@ -31,7 +32,9 @@ export function Navbar({ bg }: { bg: string }) {
     <div className={`relative w-full ${bg}`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8 border-b border-gray-300">
         <div className="inline-flex items-center space-x-2">
+        <Link to={"/"}>
           <img src={logo} alt="alt" className="w-[190px]"/>
+        </Link>
         </div>
         <div className="hidden lg:block mt-2">
           <ul className="inline-flex space-x-8">
