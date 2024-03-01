@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import picture1 from "../assets/static/join1.svg"
 import picture2 from "../assets/static/join2.svg";
 import picture3 from "../assets/static/join3.svg";
@@ -72,9 +73,11 @@ function JoinUs() {
                 </div>
 
                 <div className="flex justify-center items-center mt-5">
+                    <Link to={"/partner/sign-up"}>
                     <button className="text-blue-600  mt-5  text-base md:text-lg border border-blue-600 rounded-sm py-2 px-6 cursor-pointer">
                         Register Now
                     </button>
+                    </Link>
 
                 </div>
 

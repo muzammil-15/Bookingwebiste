@@ -12,6 +12,8 @@ import HomeListingDetails from './pages/homeListingDetails/HomeListingDetails.ts
 import AboutUs from './pages/aboutus/AboutUs.tsx';
 import TermsAndServices from './pages/termsandservices/Terms.tsx';
 import ListProperty from './pages/listproperty/ListProperty.tsx';
+import SignUp from './pages/signup/SignUp.tsx';
+import DashboardPage from './pages/dashboard/Dashboard.tsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,14 @@ const router = createBrowserRouter([
   {
     path: "/list-property",
     element: <ListProperty/>,
+  },
+  {
+    path: "/partner/sign-up",
+    element: <SignUp/>,
+  },
+  {
+    path: "/partner/dashboard",
+    element: <DashboardPage/>,
   },
 ]);
 

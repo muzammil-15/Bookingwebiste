@@ -35,7 +35,7 @@ export function RoomsRow() {
         <div className="mt-6 flex flex-col">
           <div className=" overflow-x-auto ">
             <div className="inline-block min-w-full py-2 align-middle ">
-              <div className="overflow-y-auto border-b border-gray-200 md:rounded-lg">
+              <div className=" border-b border-gray-200 md:rounded-lg">
                 <table className="min-w-full divide-y divide-gray-200">
                   <tbody className="divide-y divide-gray-200 bg-white">
                     {detail.map((d, i) => (

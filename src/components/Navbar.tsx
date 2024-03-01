@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const menuItems = [
   {
     name: "Find a Property",
-    href: "/list-property",
+    href: "",
   },
   {
     name: "Tours",
@@ -17,7 +17,7 @@ const menuItems = [
   },
   {
     name: "List a Property",
-    href: "#",
+    href: "/list-property",
   },
 ];
 

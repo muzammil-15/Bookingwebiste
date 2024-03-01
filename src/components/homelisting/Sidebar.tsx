@@ -3,11 +3,11 @@ import { Star } from "lucide-react"
 
 const Sidebar = () => {
   return (
-    <div className="hidden lg:flex flex-col w-1/3 bg-white ">
+    <div className="hidden lg:flex flex-col w-1/3  ">
           <h2 className="text-xl md:text-2xl font-semibold ">
             2443 Hotels Found
           </h2>
-          <div className="flex flex-col border border-gray-300 rounded-md mt-4">
+          <div className="flex flex-col border border-gray-300 rounded-md mt-4 bg-white">
             {/* price section */}
             <div className="w-full flex flex-col gap-2 p-2">
               <span className="text-lg font-semibold">

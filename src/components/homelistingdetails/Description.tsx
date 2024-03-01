@@ -88,18 +88,18 @@ const Description = () => {
         </p>
         {/* dialog section */}
 
-        <dialog id="my_modal_3" className="relative modal border-2 w-full bg-white">
+        <dialog id="my_modal_3" className=" modal border-2 w-full ">
           <div className="modal-box p-5 w-11/12 max-w-5xl h-[90vh]   ">
             <form method="dialog">
               <button className="btn btn-sm btn-circle btn-ghost absolute left-2 top-2">
                 <ArrowLeft color="#0351FC" size={28} />
               </button>
             </form>
-            <div className="overflow-y-auto h-[95%] w-full flex flex-col mt-5">
+            <div className=" h-[95%] w-full flex flex-col mt-5">
               <h2 className="text-2xl md:text-3xl font-semibold text-left md:text-center">
                 Selects Rooms
               </h2>
-              <div className=" overflow-hidden flex justify-between items-start flex-col md:flex-row md:items-center gap-5 bg-[#bed4ddbd] w-full  rounded-md p-3 mt-2">
+              <div className="  flex justify-between items-start flex-col md:flex-row md:items-center gap-5 bg-[#bed4ddbd] w-full  rounded-md p-3 mt-2">
                 <div className="text-sm md:text-base text-black">
                   Save up to 10% off by login or registration
                 </div>
@@ -130,8 +130,8 @@ const Description = () => {
 
           </div>
         </dialog>
-        <dialog id="my_modal_4" className="relative modal border-2 w-full bg-white">
-          <div className="modal-box p-5 w-11/12 max-w-5xl h-[90vh]  ">
+        <dialog id="my_modal_4" className=" modal border-2 w-full ">
+          <div className="modal-box p-5  w-11/12 max-w-5xl  ">
             <form method="dialog">
               <button className="btn btn-sm btn-circle btn-ghost absolute left-2 top-2">
                 <ArrowLeft color="#0351FC" size={28} />
@@ -165,7 +165,7 @@ const Description = () => {
 
           </div>
         </dialog>
-        <dialog id="my_modal_5" className="relative modal border-2 w-full bg-white">
+        <dialog id="my_modal_5" className=" modal border-2 w-full ">
           <div className="modal-box p-5 w-11/12 max-w-5xl h-[90vh]  ">
             <form method="dialog">
               <button className="btn btn-sm btn-circle btn-ghost absolute left-2 top-2">
@@ -200,7 +200,7 @@ const Description = () => {
 
           </div>
         </dialog>
-        <dialog id="my_modal_6" className="relative modal border-2 w-full bg-white">
+        <dialog id="my_modal_6" className=" modal border-2 w-full ">
           <div className="modal-box p-5 w-11/12 max-w-5xl h-[90vh]  ">
             <div className="overflow-y-auto h-[95%] gap-5 flex justify-center items-center flex-col mt-5">
             <CheckCircle2 color="white" fill="green" size={80} />
@@ -224,45 +224,7 @@ const Description = () => {
 
           </div>
         </dialog>
-        {/* <dialog id="my_modal_7" className="modal border-2 w-full">
-          <div className="modal-box px-11 py-9 w-11/12 max-w-5xl">
-            <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                ✕
-              </button>
-            </form>
-            <div className="">
-              <h1 className="font-bold text-2xl text-gray-900"></h1>
-            </div>
-
-            <div className="flex justify-center items-center flex-col">
-              <h1 className="font-bold text-2xl text-gray-900 text-center sm:my-9 my-4">
-                Multiple properties where guests can book a room
-              </h1>
-              <div className="sm:px-28 px-6 flex flex-row justify-center items-start gap-5 my-5">
-                <div className="">
-                  <div className="border-2 border-primary cursor-pointer  rounded-md flex sm:px-9 px-2 sm:py-16 py-3 flex-col">
-                    <img
-                      className="sm:h-[76px] h-[20px] "
-                      src="assets/images/popup/logo1.svg"
-                      alt=""
-                    />
-                    <p className="text-gray-400 text-center my-4">
-                      Multiple hotels with one or multiple rooms that guests can
-                      book
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <button className="text-white hover:text-white mt-6 border border-primary py-2 px-6 sm:w-[60%] w-full bg-primary focus:outline-none hover:bg-indigo-600 font-semibold rounded text-lg">
-                Continue
-              </button>
-              <button className="text-primary hover:text-white mt-6 border border-primary py-2 px-6 sm:w-[60%] w-full transition-all  hover:bg-primary focus:outline-none font-semibold rounded text-lg">
-                No, I need to make a change
-              </button>
-            </div>
-          </div>
-        </dialog> */}
+        
       </div>
     </div>
   );
