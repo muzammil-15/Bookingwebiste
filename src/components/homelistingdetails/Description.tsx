@@ -16,6 +16,8 @@ const Description = () => {
   const closePopup = () => {
     setCurrentPopup(null);
   };
+
+  console.log(currentPopup, closePopup)
   return (
     <div className="w-full">
       <div className="mx-auto max-w-7xl padding-x py-10 flex flex-col  gap-5">

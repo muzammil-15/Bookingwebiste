@@ -31,13 +31,13 @@ interface Item{
 
 
 
-const items:Item[] = [
+const items: Item[] = [
     {
         title: "Hotel Arc New York city",
         location: "New York",
         adults: 10,
         finalPrice: 80,
-        category:"city",
+        category: "city",
         beds: 4,
         ratings: 3,
         reviews: 120,
@@ -48,7 +48,7 @@ const items:Item[] = [
         location: "London",
         adults: 12,
         finalPrice: 100,
-        category:"city",
+        category: "city",
         beds: 3,
         ratings: 4,
         reviews: 90,
@@ -59,7 +59,7 @@ const items:Item[] = [
         location: "London",
         adults: 12,
         finalPrice: 100,
-        category:"city",
+        category: "city",
         beds: 3,
         ratings: 4,
         reviews: 90,
@@ -70,7 +70,7 @@ const items:Item[] = [
         location: "London",
         adults: 12,
         finalPrice: 100,
-        category:"city",
+        category: "city",
         beds: 3,
         ratings: 4,
         reviews: 90,
@@ -81,7 +81,7 @@ const items:Item[] = [
         location: "Paris",
         adults: 1,
         finalPrice: 130,
-        category:"city",
+        category: "city",
         ratings: 5,
         beds: 6,
         reviews: 150,
@@ -93,17 +93,18 @@ const items:Item[] = [
         adults: 11,
         finalPrice: 90,
         beds: 16,
-        category:"city",
+        category: "city",
         ratings: 5,
         reviews: 100,
         picture: `${picture1}`
-    }, {
+    },
+    {
         title: "Hotel Arc New York city",
         location: "Paris",
         adults: 3,
         finalPrice: 130,
         beds: 4,
-        category:"outdoor",
+        category: "outdoor",
         ratings: 4,
         reviews: 150,
         picture: `${picture2}`
@@ -113,7 +114,7 @@ const items:Item[] = [
         location: "New York",
         adults: 12,
         finalPrice: 80,
-        category:"outdoor",
+        category: "outdoor",
         beds: 23,
         ratings: 3,
         reviews: 120,
@@ -125,8 +126,7 @@ const items:Item[] = [
         adults: 4,
         beds: 3,
         finalPrice: 100,
-        category:"outdoor",
-
+        category: "outdoor",
         ratings: 4,
         reviews: 90,
         picture: `${picture1}`
@@ -136,7 +136,7 @@ const items:Item[] = [
         location: "Paris",
         adults: 1,
         beds: 5,
-        category:"outdoor",
+        category: "outdoor",
         finalPrice: 130,
         ratings: 5,
         reviews: 150,
@@ -147,7 +147,7 @@ const items:Item[] = [
         location: "Paris",
         adults: 1,
         beds: 5,
-        category:"outdoor",
+        category: "outdoor",
         finalPrice: 130,
         ratings: 5,
         reviews: 150,
@@ -158,7 +158,7 @@ const items:Item[] = [
         location: "Paris",
         adults: 1,
         beds: 5,
-        category:"outdoor",
+        category: "outdoor",
         finalPrice: 130,
         ratings: 5,
         reviews: 150,
@@ -169,17 +169,18 @@ const items:Item[] = [
         location: "Tokyo",
         adults: 110,
         beds: 3,
-        category:"romance",
+        category: "romance",
         finalPrice: 90,
         ratings: 5,
         reviews: 100,
         picture: `${picture1}`
-    }, {
+    },
+    {
         title: "Hotel Arc New York city",
         location: "Paris",
         adults: 150,
         beds: 5,
-        category:"romance",
+        category: "romance",
         finalPrice: 130,
         ratings: 4,
         reviews: 150,
@@ -190,28 +191,29 @@ const items:Item[] = [
         location: "Tokyo",
         adults: 110,
         beds: 3,
-        category:"romance",
+        category: "romance",
         finalPrice: 90,
         ratings: 5,
         reviews: 100,
         picture: `${picture1}`
-    }, {
+    },
+    {
         title: "Hotel Arc New York city",
         location: "Paris",
         adults: 150,
         beds: 5,
-        category:"romance",
+        category: "romance",
         finalPrice: 130,
         ratings: 4,
         reviews: 150,
         picture: `${picture3}`
     },
-    , {
+    {
         title: "Hotel Arc New York city",
         location: "Paris",
         adults: 150,
         beds: 5,
-        category:"romance",
+        category: "romance",
         finalPrice: 130,
         ratings: 4,
         reviews: 150,
@@ -222,23 +224,25 @@ const items:Item[] = [
         location: "Tokyo",
         adults: 110,
         beds: 3,
-        category:"romance",
+        category: "romance",
         finalPrice: 90,
         ratings: 5,
         reviews: 100,
         picture: `${picture1}`
-    }, {
+    },
+    {
         title: "Hotel Arc New York city",
         location: "Paris",
         adults: 150,
         beds: 5,
-        category:"romance",
+        category: "romance",
         finalPrice: 130,
         ratings: 4,
         reviews: 150,
         picture: `${picture3}`
-    },
+    }
 ];
+
 
 
 

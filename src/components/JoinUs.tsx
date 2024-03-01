@@ -45,7 +45,7 @@ function JoinUs() {
                     {
                         items.map((item, ind) => (
 
-                            <div className=" p-4 md:h-[210px] flex max-md:flex-col gap-5 items-center rounded-[4px]  bg-[#FFF]">
+                            <div key={ind} className=" p-4 md:h-[210px] flex max-md:flex-col gap-5 items-center rounded-[4px]  bg-[#FFF]">
 
 
                                 <img src={item.picture} className="w-[106px] h-[106px]" alt="" />

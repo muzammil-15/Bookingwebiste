@@ -1,4 +1,4 @@
-import img from "../assets/static/5strhero.png";
+
 
 function FiveStrHomeApart() {
   return (

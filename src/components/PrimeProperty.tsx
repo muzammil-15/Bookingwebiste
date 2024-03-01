@@ -153,7 +153,7 @@ function PrimeProperty() {
 
 
 
-    var settings = {
+    const settings = {
         dots: false,
         infinite: false,
         speed: 500,
