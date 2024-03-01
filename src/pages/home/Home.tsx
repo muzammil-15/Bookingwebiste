@@ -15,9 +15,8 @@ import JoinUs from "../../components/JoinUs";
 import TripePlane from "../../components/TripePlane";
 import TrendingDestinationHoem from "../../components/TrendingDestinationHoem";
 import ExplorHome from "../../components/ExplorHome";
-import Footer from "../../components/Footer";
 import { Link } from "react-router-dom";
-
+import Footer from "../../components/Footer";
 interface Card {
   image: string;
   title: string;

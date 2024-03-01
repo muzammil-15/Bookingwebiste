@@ -163,7 +163,16 @@ function PrimeProperty() {
         nextArrow: <SampleNextArrow />, // Custom Next Arrow component
         prevArrow: <SamplePrevArrow />,
         responsive: [
+
             {
+                breakpoint: 1450,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 5,
+                    infinite: true,
+                    dots: true
+                }
+            },{
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
@@ -192,7 +201,7 @@ function PrimeProperty() {
 
     return (
         <>
-            <div className="padding-x">
+            <div className="padding-x ">
 
                 <h2 className="text-3xl text-center mb-12 text-black font-bold"><span className='border-b-2 pb-2 border-blue-600'>Our Top Prime Properties</span></h2>
 
@@ -206,7 +215,7 @@ function PrimeProperty() {
                         {
                             items.map((item, ind) => (
 
-                                <div className="mx-2">
+                                <div className="">
                                     <TopPrimpeCard key={ind} title={item.title} picture={item.picture} location={item.location} startPrice={item.startPrice} finalPrice={item.finalPrice} ratings={item.ratings} reviews={item.reviews} />
                                 </div>
                             ))
