@@ -9,7 +9,7 @@ import PaymentPage from "../../components/dashboard/Payments/Payment";
 interface Menu {
     title: string;
     component: ReactElement;
-    gap?: any;
+    gap?: string;
 }
 
 const DashboardPage: React.FC = () => {
