@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const menuItems = [
   {
     name: "Find a Property",
-    href: "#",
+    href: "/list-property",
   },
   {
     name: "Tours",
@@ -40,12 +40,11 @@ export function Navbar({ bg }: { bg: string }) {
           <ul className="inline-flex space-x-8">
             {menuItems.map((item) => (
               <li key={item.name}>
-                <a
-                  href={item.href}
-                  className="text-sm font-semibold text-white hover:text-gray-200"
+                <Link to={item.href}
+                  className="text-sm md:text-base ubuntu-regular text-white hover:text-gray-200"
                 >
                   {item.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -53,13 +52,13 @@ export function Navbar({ bg }: { bg: string }) {
         <div className="hidden lg:flex gap-5">
           <button
             type="button"
-            className="mt-4 w-full rounded-sm px-6 py-2 text-sm font-semibold border border-white text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            className="mt-4 w-full rounded-sm px-6 py-2 text-sm md:text-base ubuntu-regular border border-white text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
           >
             Login
           </button>
           <button
             type="button"
-            className="mt-4 w-full rounded-sm bg-[#0351FC]  px-6 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
+            className="mt-4 w-full rounded-sm bg-[#0351FC]  px-6 py-2 md:text-sm ubuntu-regular text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 "
           >
             Register
           </button>
@@ -119,15 +118,14 @@ export function Navbar({ bg }: { bg: string }) {
                 <div className="mt-6">
                   <nav className="grid gap-y-4">
                     {menuItems.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
+                      <Link to={item.href}
+                      key={item.name}
                         className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50"
                       >
-                        <span className="ml-3 text-base font-medium text-gray-900">
+                        <span className="ml-3 text-base ubuntu-regular text-gray-900">
                           {item.name}
                         </span>
-                      </a>
+                      </Link>
                     ))}
                   </nav>
                 </div>
