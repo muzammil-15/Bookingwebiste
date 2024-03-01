@@ -2,6 +2,7 @@ import StarRatings from "react-star-ratings";
 import { MapPin } from 'lucide-react';
 import bedsicon from ".././assets/static/beds.svg";
 import adulsicon from ".././assets/static/adults.svg"
+import { Link } from "react-router-dom";
 export interface TopaApartHprops {
   title: string;
 location: string;
@@ -92,7 +93,9 @@ function TopApartHCard({
 
         
         <div className="flex justify-end mx-2 mb-2 ">
+          <Link to={"/homelistingdetails"}>
         <button className="border-blue-600 p-2 rounded-[2px] text-blue-600 border-[1px] text-[18px] font-normal">Book Now</button>
+          </Link>
 
 
         </div>

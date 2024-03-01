@@ -35,7 +35,7 @@ const HomeListing = () => {
         />
         <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8 z-10 bg-[#F2F4FD] ">
           <div className="w-full flex flex-col justify-center items-center gap-10">
-            <h2 className="text-3xl text-center text-black font-bold border-b border-blue-600 pb-4">
+            <h2 className="text-3xl text-center text-black font-bold border-b-2 border-blue-600 pb-4">
               Find home, Apartment, Villa and mush more
             </h2>
             <hr />

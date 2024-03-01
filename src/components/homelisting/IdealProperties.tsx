@@ -67,7 +67,7 @@ const IdealProperties = () => {
     <div className="w-full bg-[#f0efef] py-10">
       <div className="w-full flex justify-center padding-x items-center mx-auto max-w-7xl py-10">
         <div className="w-full h-full flex flex-col gap-5">
-          <h2 className="text-3xl w-full mx-auto text-center text-[#000000] font-bold border-b border-blue-600 pb-4">
+          <h2 className="text-3xl w-full md:w-max mx-auto text-center text-[#000000] font-bold border-b-2 border-blue-600 pb-4">
           Get Inspiration for finding your ideal Property
           </h2>
           <div className="w-full mt-3 border-b border-gray-300 overflow-x-auto  rounded-md overflow-hidden flex justify-stretch items-center">

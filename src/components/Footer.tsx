@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
 import logo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className={`relative w-full footer mt-10`}>
@@ -39,11 +40,11 @@ const Footer = () => {
                     <li className='cursor-pointer list-none'>Seasonal and holidays deals</li>
                 </div>
                 <div className='flex flex-col gap-3 flex-1 text-white text-sm '>
-                    <li className='cursor-pointer list-none'>About us</li>
+                    <li className='cursor-pointer list-none'><Link to={'/aboutus'}>About us</Link></li>
                     <li className='cursor-pointer list-none'>Customers and services helps</li>
                     <li className='cursor-pointer list-none'>Partner helps</li>
                     <li className='cursor-pointer list-none'>Careers</li>
-                    <li className='cursor-pointer list-none'>Terms and conditions</li>
+                    <li className='cursor-pointer list-none'><Link to={"/terms"}>Terms and conditions</Link></li>
                 </div>
 
             </div>

@@ -103,7 +103,7 @@ function Home() {
     <section className="w-full bg-white my-20 py-10">
       <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8 z-10 ">
         <div className="w-full flex flex-col justify-center items-center gap-10">
-          <h2 className="text-3xl text-black font-bold border-b border-blue-600 pb-4">Your Recent Searches</h2>
+          <h2 className="text-3xl text-black font-bold border-b-2 border-blue-600 pb-4">Your Recent Searches</h2>
           <hr />
           <div className="flex w-full justify-center gap-10 items-center flex-wrap">
             {cards.map((card , ind:number)=>(
@@ -122,7 +122,7 @@ function Home() {
       <img src={elipes} alt="elipes"  className="absolute hidden md:block top-20 right-10 w-[250px]"/>
       <div className="mx-auto flex max-w-7xl items-center justify-center px-4 py-2 sm:px-6 lg:px-8 z-10 bg-[#F2F4FD] ">
         <div className="w-full flex flex-col justify-center items-center gap-10">
-          <h2 className="text-3xl text-center text-black font-bold border-b border-blue-600 pb-4">Find home, Apartment, Villa and mush more</h2>
+          <h2 className="text-3xl text-center text-black font-bold border-b-2 border-blue-600 pb-4">Find home, Apartment, Villa and mush more</h2>
           <hr />
           <div className="flex w-full justify-center gap-5 items-center flex-wrap">
             {havhcards.map((card , ind:number)=>(

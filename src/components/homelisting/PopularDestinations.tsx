@@ -48,7 +48,7 @@ function PopularDestinations() {
     <div className="w-full bg-[#f0efef] py-10">
         <div className="w-full flex justify-center padding-x items-center mx-auto max-w-7xl py-10">
             <div className="w-full h-full flex flex-col gap-5">
-            <h2 className="text-3xl w-full mx-auto text-center text-[#000000] font-bold border-b border-blue-600 pb-4">Trending Properties destinations</h2>
+            <h2 className="text-3xl w-full md:w-max mx-auto text-center text-[#000000] font-bold border-b-2 border-blue-600 pb-4">Trending Properties destinations</h2>
             <div className="flex w-full justify-center gap-10 items-center flex-wrap mt-12">
                 {trendingCard.map((card , ind)=>(
                     <div key={ind} className="flex flex-col bg-[#FFFFFF] gap-3 justify-center items-center border border-gray-300 rounded-md">

@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import  { useState } from 'react';
 
 const Faqs = () => {
   const [isOpen, setIsOpen] = useState(Array(5).fill(false)); // Array with initial state for each FAQ
-  const toggleAccordion = (index: number) => {
+  const toggleAccordion = (index:number) => {
     const newIsOpen = [...isOpen]; // Copy the state array
     if (index === 0 && newIsOpen[index] === false) {
       // Special case for the first question
@@ -14,26 +14,25 @@ const Faqs = () => {
 
   const faqsData = [
     {
-      question: "What type of property is available for rent?",
+      question: 'What type of property is available for rent?',
       answer:
-        "The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc"
+        'The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc',
     },
     {
-      question: "What type of property is available for rent?",
+      question: 'What type of property is available for rent?',
       answer:
-        "The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc"
+        'The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc',
     },
     {
-      question: "What type of property is available for rent?",
+      question: 'What type of property is available for rent?',
       answer:
-        "The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc"
+        'The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc',
     },
     {
-      question: "What type of property is available for rent?",
+      question: 'What type of property is available for rent?',
       answer:
-        "The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc"
+        'The property available for rent is a [insert property details: e.g., 2-bedroom apartment, 4-bedroom house, commercial space, etc',
     },
-   
   ];
 
   return (
@@ -62,7 +61,7 @@ const Faqs = () => {
                       toggleAccordion(index);
                     }}
                   >
-                    {isOpen[index] ? "-" : "+"}
+                    {isOpen[index] ? '-' : '+'}
                   </button>
                   
                 </div>
@@ -70,7 +69,9 @@ const Faqs = () => {
 
               {isOpen[index] && (
                 <>
-                  <p className="p-3 text-sm text-gray-500 dark:text-gray-300">{faq.answer}</p>
+                  <p className={`p-3 text-sm text-gray-500 dark:text-gray-300 ${isOpen[index] ? 'fade-in' : 'fade-out'}`}>
+                    {faq.answer}
+                  </p>
                   <hr className="border-gray-200 dark:border-gray-700" />
                 </>
               )}
