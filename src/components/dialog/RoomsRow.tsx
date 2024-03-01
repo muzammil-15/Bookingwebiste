@@ -23,6 +23,7 @@ const detail = [
     Price: "USD 250",
     Refund: "Non Refundable",
   },
+
   
   
 ];
@@ -34,28 +35,28 @@ export function RoomsRow() {
         <div className="mt-6 flex flex-col">
           <div className=" overflow-x-auto ">
             <div className="inline-block min-w-full py-2 align-middle ">
-              <div className="overflow-hidden border-b border-gray-200 md:rounded-lg">
+              <div className="overflow-y-auto border-b border-gray-200 md:rounded-lg">
                 <table className="min-w-full divide-y divide-gray-200">
                   <tbody className="divide-y divide-gray-200 bg-white">
                     {detail.map((d, i) => (
                       <tr key={i}>
                         <td className="whitespace-nowrap px-4 py-4">
-                          <div className="text-sm  text-black font-bold">
+                          <div className="text-sm  text-black font-medium md:font-bold">
                             {d.Room}
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-4 py-4">
-                          <div className="text-sm text-black font-bold">
+                          <div className="text-sm text-black font-medium md:font-bold">
                             {d.Guest}
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-4 py-4">
-                          <div className="text-sm text-black font-bold">
+                          <div className="text-sm text-black font-medium md:font-bold">
                             {d.Price}
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-4 py-4">
-                          <div className="text-sm text-black font-bold">
+                          <div className="text-sm text-black font-medium md:font-bold">
                             {d.Refund}
                           </div>
                         </td>
